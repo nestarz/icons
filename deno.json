@@ -2,9 +2,6 @@
   "name": "@bureaudouble/icons",
   "version": "0.0.3",
   "lint": {
-    "include": [
-      "./radix/*"
-    ],
     "rules": {
       "tags": [
         "fresh",
@@ -14,6 +11,13 @@
   },
   "tasks": {
     "build": "deno run -A build.ts"
+  },
+  "publish": {
+    "include": [
+      "./**/*.tsx",
+      "build.ts",
+      "deno.json"
+    ]
   },
   "compilerOptions": {
     "noErrorTruncation": true,
