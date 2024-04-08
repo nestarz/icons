@@ -11,7 +11,7 @@
     }
   },
   "tasks": {
-    "build": "deno run -A generate.ts"
+    "build": "deno run -A build.ts"
   },
   "compilerOptions": {
     "noErrorTruncation": true,
