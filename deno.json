@@ -2,7 +2,9 @@
   "name": "@bureaudouble/icons",
   "version": "0.0.3",
   "lint": {
-    "include": ["./radix/*"],
+    "include": [
+      "./radix/*"
+    ],
     "rules": {
       "tags": [
         "fresh",
