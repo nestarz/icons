@@ -1,6 +1,6 @@
 {
   "name": "@bureaudouble/icons",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "lint": {
     "rules": {
       "tags": [
@@ -27,16 +27,13 @@
       "dom.asynciterable",
       "deno.ns"
     ],
-    "jsx": "react-jsx",
-    "jsxImportSource": "@bureaudouble/islet/react",
     "types": [
-      "npm:@types/react@18.2.0"
+      "npm:@types/react@^18.2.0"
     ]
   },
   "imports": {
-    "@bureaudouble/islet/": "jsr:/@bureaudouble/islet@0.0.28/",
-    "react": "npm:react@18.2.0",
-    "@types/react": "npm:@types/react@18.2.0"
+    "react": "npm:react@^18.2.0",
+    "@types/react": "npm:@types/react@^18.2.0"
   },
   "exports": {
     "./radix/ColumnsIcon": "./radix/ColumnsIcon.tsx",

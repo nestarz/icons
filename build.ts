@@ -28,7 +28,7 @@ for await (const iterator of await zipReader.getEntries()) {
     )
     .replace(/^([a-z])/gi, ($1) => $1.toUpperCase())
     .concat("Icon");
-  const string = `/* @deno-types="npm:@types/react@18.2.0" */\nimport * as React from "react";export const ${name} = ({ className }: { className?: string; }): any => ${
+  const string = `/* @deno-types="npm:@types/react@^18.2.0" */\nimport * as React from "react";export const ${name} = ({ className }: { className?: string; }): any => ${
     jsx.replace(
       /<svg\s+/,
       "<svg className={className} ",
