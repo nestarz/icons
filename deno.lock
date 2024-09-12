@@ -1,6 +1,7 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@bureaudouble/icons@0.0.5": "0.0.5",
     "jsr:@std/path@*": "1.0.5",
     "jsr:@zip-js/zip-js@*": "2.7.52",
     "npm:@types/react@^18.2.0": "18.3.5",
@@ -8,6 +9,9 @@
     "npm:react@^18.2.0": "18.3.1"
   },
   "jsr": {
+    "@bureaudouble/icons@0.0.5": {
+      "integrity": "8d2d7e47f0f71d8e411dc7ea764ed91624fc698edbb24d57373de38ae65f8712"
+    },
     "@std/path@1.0.5": {
       "integrity": "846edda0b1811e6986bbad4a51a14556be52827bbe6df4ff5e4446301ea248e0"
     },
