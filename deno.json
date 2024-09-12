@@ -1,6 +1,6 @@
 {
   "name": "@bureaudouble/icons",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "license": "MIT",
   "lint": {
     "rules": {
@@ -17,7 +17,8 @@
     "include": [
       "./**/*.tsx",
       "build.ts",
-      "deno.json"
+      "deno.json",
+      "README.md"
     ]
   },
   "compilerOptions": {
